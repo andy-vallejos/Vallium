@@ -2,17 +2,22 @@
   "name": "vallium",
   "version": "1.0.0",
   "description": "",
-  "main": "main.ts",
+  "main": "main.js",
   "scripts": {
-    "dev": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:renderer": "npm --prefix renderer run dev",
+    "dev:electron": "cross-env VITE_DEV_SERVER_URL=http://localhost:5173 electron .",
+    "dev": "concurrently -k \"npm run dev:renderer\" \"wait-on http://localhost:5173 && npm run dev:electron\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
     "electron": "^40.0.0",
-    "standard": "^17.1.2"
+    "standard": "^17.1.2",
+    "wait-on": "^9.0.3"
   }
 }
