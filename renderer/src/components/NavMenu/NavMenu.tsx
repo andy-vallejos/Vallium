@@ -1,6 +1,6 @@
-import './Nav.css'
+import './NavMenu.css'
 
-export const Nav = () => {
+export const NavMenu = () => {
     return (
         <div className="nav">
             <section className="nav__options">

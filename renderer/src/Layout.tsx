@@ -1,9 +1,11 @@
-import { Nav } from "./components/Nav/Nav"
+import './Layout.css'
+import { NavMenu, Habitos } from "./components/index"
 
 export const Layout = () => {
-    return <div>
-        <Nav>
+    return <div className="layout">
+        <NavMenu>
 
-        </Nav>
+        </NavMenu>
+        <Habitos></Habitos>
     </div>
 }
