@@ -1,12 +1,12 @@
 .nav {
-  width: 25%;
+  width: 20%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-  border-right: 1px solid #94a3b8;
+  padding: 20px;
+  border-right: 1px solid #151d2a;
 }
 
 .nav__options {
@@ -41,7 +41,7 @@
 }
 
 .nav__options ul li:hover {
-  background: #2c2e33;
+  background: #233348;
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@ i {
   display: flex;
   gap: 10px;
   color: rgb(255, 255, 255);
-  border-top: 1px solid #94a3b8;
+  border-top: 1px solid #151d2a;
   padding-top: 10px;
   justify-content: space-between;
 }

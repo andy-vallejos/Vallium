@@ -3,8 +3,8 @@ const path = require("path");
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 900,
-    height: 600,
+    width: 1200,
+    height: 800,
   });
 
   if (process.env.VITE_DEV_SERVER_URL) {

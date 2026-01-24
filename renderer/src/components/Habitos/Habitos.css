@@ -1,5 +1,130 @@
 .container__habitos {
-  width: 75%;
+  width: 80%;
   height: 100vh;
   padding: 30px;
+  overflow-y: auto;
+}
+
+.container__cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card__habitos {
+  width: 30%;
+  background: #111822;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #1e293b;
+}
+
+.card__habitos header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.container__icon {
+  width: 40px;
+  height: 40px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+.card__habitos i {
+  font-size: 20px;
+}
+
+.card__seguimiento {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.card__seguimiento div {
+  color: white;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  background: #101826;
+  border: 1px solid #1c2738;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__seguimiento p {
+  font-size: 10px;
+  color: #55647a;
+}
+
+.card__actividad {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__actividad__encabezado {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.card__actividad__tablero {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card__actividad div {
+  width: 14%;
+  height: 50px;
+  height: 20px;
+  border-radius: 5px;
+  background: #233348;
+}
+
+.agregar_habito {
+  width: 30%;
+  height: 150px;
+  background: #111822;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 5px dotted #1e293b;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.agregar_habito i {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  background: #1e293b;
+  border-radius: 50%;
+  color: #465468;
 }

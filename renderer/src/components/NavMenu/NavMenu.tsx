@@ -16,7 +16,7 @@ export const NavMenu = () => {
                         <i className="fi fi-rr-head-side"></i> <a href="#">Habitos</a>
                     </li>
                     <li>
-                       <i className="fi fi-rr-wallet-money"></i><a href="#">Finanzas</a>
+                      <i className="fi fi-rr-piggy-bank"></i><a href="#">Finanzas</a>
                     </li>
                 </ul>
             </section>
